@@ -1,0 +1,42 @@
+  .universe{
+                color: orange !important;
+                font-size: 50px;
+            }
+            p {
+                color: blueviolet;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bolder;
+               line-height: 10px;
+              
+            }
+            .universe{
+                color: crimson;
+            }
+            .display{
+                font-size: 20px;
+                display: inline;
+            }
+            a{
+                color: chocolate;
+            }
+            a:visited {
+                color: black;
+            }
+            /* a:active{
+                color: darkgreen;
+            } */
+            a:hover{
+                color: fuchsia;
+            }
+            .menu{
+                display: inline;
+                margin: 20px;
+                background-color: blue;
+                color: aliceblue;
+                padding: 20px;
+                border-radius: 10px;
+                
+            }
+            li:hover{}
+            
