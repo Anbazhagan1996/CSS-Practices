@@ -1,49 +1,48 @@
-  .universe{
-                color: orange !important;
-                font-size: 50px;
-            }
-            p {
-                color: blueviolet;
-                font-size: 20px;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-weight: bolder;
-               line-height: 10px;
-              
-            }
-            .universe{
-                color: crimson;
-            }
-            .display{
-                font-size: 20px;
-                display: inline;
-            }
-            a{
-                color: chocolate;
-            }
-            a:visited {
-                color: black;
-            }
-            /* a:active{
+.universe {
+  color: orange !important;
+  font-size: 50px;
+}
+p {
+  color: blueviolet;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  line-height: 10px;
+}
+.universe {
+  color: crimson;
+}
+.display {
+  font-size: 20px;
+  display: inline;
+}
+a {
+  color: chocolate;
+}
+a:visited {
+  color: black;
+}
+/* a:active{
                 color: darkgreen;
             } */
-            a:hover{
-                color: fuchsia;
-            }
-            .menu{
-                display: inline;
-                margin: 10px;
-                background-color: blue;
-                color: aliceblue;
-                padding: 20px;
-                border-radius: 10px;
-                
-                
-                
-            }
-            li:hover{
-                color: rgb(1, 13, 13);
-                background-color: rgb(250, 250, 248);
-                 border-bottom: 3px solid rgb(241, 12, 12);
-                
-            }
-            
+a:hover {
+  color: fuchsia;
+}
+.menu {
+  display: inline;
+  margin: 10px;
+  background-color: rgb(247, 65, 162);
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+li:hover {
+  color: rgb(1, 13, 13);
+  background-color: rgb(250, 250, 248);
+  border-bottom: 3px solid rgb(241, 12, 12);
+}
+.para::first-letter {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
