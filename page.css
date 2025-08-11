@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+    body {
+      background: #402904;
+      background: linear-gradient(
+        90deg,
+        rgba(64, 41, 4, 1) 0%,
+        rgba(89, 61, 25, 1) 100%
+      );
+      color: white;
+      min-height: 100vh;
+    }
+    .container {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        grid-template-columns: auto;
+        min-height: 100vh;
+        max-width: 1920px;
+        margin: 0 auto  ;
+        padding: 0 20px;
+    }
+    .header{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        padding: 20px 0;
+        gap: 40px;
+    }
